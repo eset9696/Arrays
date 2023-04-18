@@ -1,10 +1,13 @@
-﻿#include <iostream>
-#include <ctime>
+﻿#include "stdafx.h"
+#include "constants.h"
+#include "stdafx.h"
+#include "stdafx.h"
+#include "stdafx.h"
+#include "stdafx.h"
+#include "stdafx.h"
+#include "stdafx.h"
 
-using namespace std;
 
-const int ROWS = 4;
-const int COLS = 5;
 
 template <typename T> void Print(const T array[], const int n);
 template <typename T> void Print(const T array[ROWS][COLS]);
