@@ -19,7 +19,6 @@ template <typename T> T Sum(const T array[ROWS][COLS]) {
 template <typename T> double Avg(const T array[], const int n) {
     return (double)Sum(array, n) / n;
 }
-
 template <typename T> double Avg(const T array[ROWS][COLS]) {
     return (double)Sum(array) / (ROWS * COLS);
 }

@@ -10,8 +10,6 @@
 int main() {
     setlocale(LC_ALL, "");
     srand(time(0));
-    int minValue = 0;
-    int maxValue = 10;
     const int n = 10;
 
     int array1[n];
@@ -33,7 +31,7 @@ int main() {
     Search(array1, n);
 
 
-    /*int array[ROWS][COLS];
+    char array[ROWS][COLS];
     FillRand(array);
     Print(array);
     Search(array);
@@ -51,7 +49,7 @@ int main() {
     Print(array);
     cout << endl;
     UniqueRand(array);
-    Print(array);*/
+    Print(array);
 
     return 0;
 }
