@@ -86,7 +86,7 @@ void Search(char array[ROWS][COLS]);
 
 
 int main() {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "rus");
     srand(time(0));
     int minValue = 0;
     int maxValue = 10;
