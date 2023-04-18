@@ -1,14 +1,14 @@
 ﻿#include "stdafx.h"
 #include "constants.h"
-#include "Print.h"
+#include "Print.cpp"
 #include "FillRand.h"
-#include "Statistics.h"
-#include "Shifts.h"
-#include "Search.h"
-#include "Sort.h"
+#include "Statistics.cpp"
+#include "Shifts.cpp"
+#include "Search.cpp"
+#include "Sort.cpp"
 
 int main() {
-    system("chcp 65001");
+    setlocale(LC_ALL, "");
     srand(time(0));
     int minValue = 0;
     int maxValue = 10;
@@ -20,10 +20,10 @@ int main() {
     Search(array1, n);
     Sort(array1, n);
     Print(array1, n);
-    /*cout << "Сумма всех элементов массива равна: " << Sum(array1, n) << endl;
+    cout << "Сумма всех элементов массива равна: " << Sum(array1, n) << endl;
     cout << "Среднее арифметическое значение всех элементов массива равно: " << Avg(array1, n) << endl;
     cout << "Минимальное число в массиве равно: " << minValueIn(array1, n) << endl;
-    cout << "Максимальное число в массиве равно: " << maxValueIn(array1, n) << endl;*/
+    cout << "Максимальное число в массиве равно: " << maxValueIn(array1, n) << endl;
     ShiftRight(array1, n, 2);
     Print(array1, n);
     ShiftLeft(array1, n, 2);
