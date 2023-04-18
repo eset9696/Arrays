@@ -10,9 +10,10 @@
 int main() {
     setlocale(LC_ALL, "");
     srand(time(0));
+    int shifts = 2;
     const int n = 10;
-
     int array1[n];
+
     FillRand(array1, n);
     Print(array1, n);
     Search(array1, n);
@@ -22,16 +23,16 @@ int main() {
     cout << "Среднее арифметическое значение всех элементов массива равно: " << Avg(array1, n) << endl;
     cout << "Минимальное число в массиве равно: " << minValueIn(array1, n) << endl;
     cout << "Максимальное число в массиве равно: " << maxValueIn(array1, n) << endl;
-    ShiftRight(array1, n, 2);
+    ShiftRight(array1, n, shifts);
     Print(array1, n);
-    ShiftLeft(array1, n, 2);
+    ShiftLeft(array1, n, shifts);
     Print(array1, n);
     UniqueRand(array1, n);
     Print(array1, n);
     Search(array1, n);
 
-
     char array[ROWS][COLS];
+
     FillRand(array);
     Print(array);
     Search(array);
@@ -42,10 +43,10 @@ int main() {
     cout << "Среднее арифметическое значение всех элементов массива равно: " << Avg(array) << endl;
     cout << "Минимальное число в массиве равно: " << minValueIn(array) << endl;
     cout << "Максимальное число в массиве равно: " << maxValueIn(array) << endl;
-    ShiftRight(array, 2);
+    ShiftRight(array, shifts);
     Print(array);
     cout << endl;
-    ShiftLeft(array, 2);
+    ShiftLeft(array, shifts);
     Print(array);
     cout << endl;
     UniqueRand(array);
@@ -53,10 +54,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
-
-
-
