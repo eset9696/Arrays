@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <ctime>
 
 using namespace std;
@@ -98,10 +98,10 @@ int main() {
     Search(array1, n);
     Sort(array1, n);
     Print(array1, n);
-    cout << "Ñóììà âñåõ ýëåìåíòîâ ìàññèâà ðàâíà: " << Sum(array1, n) << endl;
-    cout << "Ñðåäíåå àðèôìåòè÷åñêîå çíà÷åíèå âñåõ ýëåìåíòîâ ìàññèâà ðàâíî: " << Avg(array1, n) << endl;
-    cout << "Ìèíèìàëüíîå ÷èñëî â ìàññèâå ðàâíî: " << (int) minValueIn(array1, n) << endl;
-    cout << "Ìàêñèìàëüíîå ÷èñëî â ìàññèâå ðàâíî: " << (int) maxValueIn(array1, n) << endl;
+    cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð²ÑÐµÑ… ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°: " << Sum(array1, n) << endl;
+    cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð²ÑÐµÑ… ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð¾: " << Avg(array1, n) << endl;
+    cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ñ€Ð°Ð²Ð½Ð¾: " << (int) minValueIn(array1, n) << endl;
+    cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ñ€Ð°Ð²Ð½Ð¾: " << (int) maxValueIn(array1, n) << endl;
     ShiftRight(array1, n, 2);
     Print(array1, n);
     ShiftLeft(array1, n, 2);
@@ -118,10 +118,10 @@ int main() {
     cout << endl;
     Sort(array);
     Print(array);
-    cout << "Ñóììà âñåõ ýëåìåíòîâ ìàññèâà ðàâíà: " << Sum(array) << endl;
-    cout << "Ñðåäíåå àðèôìåòè÷åñêîå çíà÷åíèå âñåõ ýëåìåíòîâ ìàññèâà ðàâíî: " << Avg(array) << endl;
-    cout << "Ìèíèìàëüíîå ÷èñëî â ìàññèâå ðàâíî: " << minValueIn(array) << endl;
-    cout << "Ìàêñèìàëüíîå ÷èñëî â ìàññèâå ðàâíî: " << maxValueIn(array) << endl;
+    cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð²ÑÐµÑ… ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð°: " << Sum(array) << endl;
+    cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð²ÑÐµÑ… ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð¾: " << Avg(array) << endl;
+    cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ñ€Ð°Ð²Ð½Ð¾: " << minValueIn(array) << endl;
+    cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ñ€Ð°Ð²Ð½Ð¾: " << maxValueIn(array) << endl;
     ShiftRight(array, 2);
     Print(array);
     cout << endl;
@@ -808,7 +808,7 @@ void Search(int array[], int n) {
             }
         }
         if (count > 0) {
-            cout << "×èñëî " << (int) array[i] << " ïîâòîðèëîñü " << count << "ðàç." << endl;
+            cout << "Ð§Ð¸ÑÐ»Ð¾ " << (int) array[i] << " Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ð»Ð¾ÑÑŒ " << count << "Ñ€Ð°Ð·." << endl;
         }
     }
 }
@@ -833,7 +833,7 @@ void Search(double array[], int n) {
             }
         }
         if (count > 0) {
-            cout << "×èñëî " << (int) array[i] << " ïîâòîðèëîñü " << count << "ðàç." << endl;
+            cout << "Ð§Ð¸ÑÐ»Ð¾ " << (int) array[i] << " Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ð»Ð¾ÑÑŒ " << count << "Ñ€Ð°Ð·." << endl;
         }
     }
 }
@@ -856,7 +856,7 @@ void Search(char array[], int n) {
             }
         }
         if (count > 0) {
-            cout << "×èñëî " << (int) array[i] << " ïîâòîðèëîñü " << count << "ðàç." << endl;
+            cout << "Ð§Ð¸ÑÐ»Ð¾ " << (int) array[i] << " Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ð»Ð¾ÑÑŒ " << count << "Ñ€Ð°Ð·." << endl;
         }
     }
 }
@@ -885,7 +885,7 @@ void Search(int array[ROWS][COLS]) {
                 }
             }
             if (count > 0) {
-                cout << "×èñëî " << (int) array[i][j] << " ïîâòîðèëîñü " << count << " ðàç." << endl;
+                cout << "Ð§Ð¸ÑÐ»Ð¾ " << (int) array[i][j] << " Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ð»Ð¾ÑÑŒ " << count << " Ñ€Ð°Ð·." << endl;
             }
         }
     }
@@ -915,7 +915,7 @@ void Search(double array[ROWS][COLS]) {
                 }
             }
             if (count > 0) {
-                cout << "×èñëî " << (int) array[i][j] << " ïîâòîðèëîñü " << count << " ðàç." << endl;
+                cout << "Ð§Ð¸ÑÐ»Ð¾ " << (int) array[i][j] << " Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ð»Ð¾ÑÑŒ " << count << " Ñ€Ð°Ð·." << endl;
             }
         }
     }
@@ -945,7 +945,7 @@ void Search(char array[ROWS][COLS]) {
                 }
             }
             if (count > 0) {
-                cout << "×èñëî " << (int) array[i][j] << " ïîâòîðèëîñü " << count << " ðàç." << endl;
+                cout << "Ð§Ð¸ÑÐ»Ð¾ " << (int) array[i][j] << " Ð¿Ð¾Ð²Ñ‚Ð¾Ñ€Ð¸Ð»Ð¾ÑÑŒ " << count << " Ñ€Ð°Ð·." << endl;
             }
         }
     }
