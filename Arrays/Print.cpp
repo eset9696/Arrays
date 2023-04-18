@@ -1,6 +1,5 @@
 #include "Print.h"
 
-
 template <typename T> void Print(const T array[], const int n) {
     for (int i = 0; i < n; ++i) {
         cout << array[i] << " ";
